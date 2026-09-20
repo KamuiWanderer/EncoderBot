@@ -1,0 +1,43 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment secrets
+.env
+*.session
+*.session-journal
+
+# Database & SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# Storage & Temporary directories
+storage/downloads/*
+storage/outputs/*
+storage/thumbnails/*
+storage/temp/*
+!storage/downloads/.gitkeep
+!storage/outputs/.gitkeep
+!storage/thumbnails/.gitkeep
+!storage/temp/.gitkeep
+
+# IDEs & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,683 @@
+i want to create a excel file for storing the timetabke for class 12th sci , which the students  are divided in two teams , timing , fromt his time to this time , activity , and the name of students , for each team
+
+
+📊 CURRENT ENCODING STATUS [1/1]
+
+🎬 Source:
+GS Ep1 @TheGreatSeljuks.mp4
+
+📌 Stage: Downloading (Preparing)
+░░░░░░░░░░░░ 2.1%
+
+⚡ Speed: 127.47 KB/s
+⏳ ETA: 1h 58m
+🎞 Qualities: 0/5 completed (None)
+📋 Queue: 0 waiting  ive cancelled the njob still it is there when i use the cmd agaon
+
+2026-09-19 18:10:19 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 18:10:19 | INFO     | encoder_bot:33 - Bot is running and listening for messages. Press Ctrl+C to stop.
+2026-09-19 18:17:58 | INFO     | encoder_bot:25 - Updated caption format for user 986380678: UBS S{season} - E{episode} - Urdu Subtitles - {quality} - KayiTV - @UrduSubtitlesMain.mp4
+2026-09-19 18:18:44 | INFO     | encoder_bot:31 - Cleared caption format for user 986380678
+2026-09-19 18:19:08 | INFO     | encoder_bot:25 - Updated filename format for user 986380678: UBS S{season} - E{episode} - Urdu Subtitles - {quality} - KayiTV - @UrduSubtitlesMain.mp4
+2026-09-19 18:21:27 | INFO     | encoder_bot:65 - Saved single thumbnail configuration for user 986380678
+2026-09-19 18:26:26 | INFO     | encoder_bot:84 - Job job_d2ef919146 enqueued. Queue size: 1
+2026-09-19 18:26:26 | INFO     | encoder_bot:118 - Processing job job_d2ef919146 (video_AgAD7R0AAkOHcVU.mp4) [Batch 1/1]...
+2026-09-19 18:26:27 | ERROR    | encoder_bot:350 - Job job_d2ef919146 failed: 'str' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Encoder Bot\app\jobs\queue.py", line 136, in _process_job
+    local_source_path = await self._download_source(job)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Encoder Bot\app\jobs\queue.py", line 471, in _download_source
+    return await self.downloader.download_media(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\Encoder Bot\app\telegram\downloader.py", line 61, in download_media
+    logger.info(f"Initiating single-source download for message {message.id} in chat {message.chat.id}...")
+                                                                 ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+2026-09-19 18:28:54 | INFO     | encoder_bot:25 - Updated caption format for user 986380678: <a href="https://t.me/UyanisUrduSubs">⚔️ 𝗨𝗬𝗔𝗡𝗜𝗦̧ 𝗕𝗨̈𝗬𝗨̈𝗞 𝗦𝗘𝗟𝗖̧𝗨𝗞𝗟𝗨 ⚔️</a>
+
+<b>📺 Season {season} | Episode {season_episode} | Bolum {bolum} | {finale}</b>
+
+🎞 {quality} | 📜 اردو سب ٹائٹلز | 🇹🇷 ترکی
+
+@UrduSubtitlesMain
+2026-09-19 18:29:37 | INFO     | encoder_bot:24 - Updated season mapping for user 986380678: Season 2 -> Bölüm 35
+2026-09-19 18:33:02 | INFO     | encoder_bot:65 - Updated episode header template for user 986380678
+2026-09-19 18:34:26 | INFO     | encoder_bot:65 - Updated episode header template for user 986380678
+2026-09-19 18:35:10 | INFO     | encoder_bot:32 - Cleared sticker configuration for user 986380678
+2026-09-19 18:39:24 | INFO     | encoder_bot:84 - Job job_5d2aa3b410 enqueued. Queue size: 1
+2026-09-19 18:39:24 | INFO     | encoder_bot:118 - Processing job job_5d2aa3b410 (video_AgAD7R0AAkOHcVU.mp4) [Batch 1/1]...
+2026-09-19 18:39:25 | ERROR    | encoder_bot:350 - Job job_5d2aa3b410 failed: 'str' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Encoder Bot\app\jobs\queue.py", line 136, in _process_job
+    local_source_path = await self._download_source(job)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Encoder Bot\app\jobs\queue.py", line 471, in _download_source
+    return await self.downloader.download_media(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\Encoder Bot\app\telegram\downloader.py", line 61, in download_media
+    logger.info(f"Initiating single-source download for message {message.id} in chat {message.chat.id}...")
+                                                                 ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Connection failed! Trying again...
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: [WinError 1236] The network connection was aborted by the local system
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Connection failed! Trying again...
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Connection failed! Trying again...
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Connection failed! Trying again...
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Connection failed! Trying again...
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Connection failed! Trying again...
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+Unable to connect due to network issues: Connection timed out
+
+ *  History restored 
+
+PS D:\Encoder Bot> python main.py                                                             
+TgCrypto is missing! Pyrogram will work the same, but at a much slower speed. More info: https://pyrofork.wulan17.dev/main/topics/speedups
+2026-09-19 21:32:40 | INFO     | encoder_bot:74 - Initializing SQLite database...
+2026-09-19 21:32:40 | INFO     | encoder_bot:77 - Reconciling jobs from previous runs...
+2026-09-19 21:32:40 | INFO     | encoder_bot:80 - Registering bot message and callback handlers...
+2026-09-19 21:32:40 | INFO     | encoder_bot:83 - Starting Telegram Bot Client...
+2026-09-19 21:32:57 | INFO     | encoder_bot:87 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 21:32:57 | INFO     | encoder_bot:89 - Starting Job Queue Worker...
+2026-09-19 21:32:57 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 21:32:57 | INFO     | encoder_bot:33 - Bot is running and listening for messages. Press Ctrl+C to stop.
+2026-09-19 21:32:59 | INFO     | encoder_bot:93 - Stopping Job Queue Worker...
+2026-09-19 21:33:00 | INFO     | encoder_bot:79 - JobQueueWorker stopped.
+2026-09-19 21:33:00 | INFO     | encoder_bot:96 - Stopping Telegram Bot Client...
+2026-09-19 21:33:01 | INFO     | encoder_bot:98 - Bot stopped successfully.
+PS D:\Encoder Bot> python main.py
+2026-09-19 21:48:14 | INFO     | encoder_bot:74 - Initializing SQLite database...
+2026-09-19 21:48:14 | INFO     | encoder_bot:165 - SQLite Database initialized and schema verified.
+2026-09-19 21:48:14 | INFO     | encoder_bot:77 - Reconciling jobs from previous runs...
+2026-09-19 21:48:14 | INFO     | encoder_bot:80 - Registering bot message and callback handlers...
+2026-09-19 21:48:14 | INFO     | encoder_bot:83 - Starting Telegram Bot Client...
+2026-09-19 21:48:18 | INFO     | encoder_bot:87 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 21:48:18 | INFO     | encoder_bot:89 - Starting Job Queue Worker...
+2026-09-19 21:48:18 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 21:48:18 | ERROR    | encoder_bot:27 - Fatal error in main event loop: 'BotConfig' object has no attribute 'own
+Traceback (most recent call last):
+  File "D:\Encoder Bot\main.py", line 21, in main
+    await bot.start()
+  File "D:\Encoder Bot\app\bot.py", line 93, in start
+    if config.bot.owner_id:
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BotConfig' object has no attribute 'owner_id'. Did you mean: 'owner_ids'?
+2026-09-19 21:48:18 | INFO     | encoder_bot:120 - Stopping Job Queue Worker...
+2026-09-19 21:48:18 | INFO     | encoder_bot:79 - JobQueueWorker stopped.
+2026-09-19 21:48:18 | INFO     | encoder_bot:123 - Stopping Telegram Bot Client...
+2026-09-19 21:48:18 | INFO     | encoder_bot:125 - Bot stopped successfully.
+PS D:\Encoder Bot> python main.py
+2026-09-19 21:54:47 | INFO     | encoder_bot:74 - Initializing SQLite database...
+2026-09-19 21:54:47 | INFO     | encoder_bot:165 - SQLite Database initialized and schema verified.
+2026-09-19 21:54:47 | INFO     | encoder_bot:77 - Reconciling jobs from previous runs...
+2026-09-19 21:54:47 | INFO     | encoder_bot:80 - Registering bot message and callback handlers...
+2026-09-19 21:54:47 | INFO     | encoder_bot:83 - Starting Telegram Bot Client...
+2026-09-19 21:54:51 | INFO     | encoder_bot:87 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 21:54:51 | INFO     | encoder_bot:89 - Starting Job Queue Worker...
+2026-09-19 21:54:51 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 21:54:51 | INFO     | encoder_bot:22 - Bot is running and listening for messages. Press Ctrl+C to stop.
+2026-09-19 21:56:08 | INFO     | encoder_bot:47 - Updated allow_upscale for user 986380678: True
+2026-09-19 21:57:07 | INFO     | encoder_bot:25 - Updated post-encode sticker for user 986380678
+2026-09-19 21:58:03 | INFO     | encoder_bot:84 - Job job_1189ff9bfa enqueued. Queue size: 1
+2026-09-19 21:58:03 | INFO     | encoder_bot:118 - Processing job job_1189ff9bfa (video_AgAD7R0AAkOHcVU.mp4) [Batch 1/1]...
+2026-09-19 21:58:03 | INFO     | encoder_bot:65 - Initiating single-source download for media file_id: BAACAgUAAxkBAAM_aq63-hAb...
+2026-09-19 21:58:16 | INFO     | encoder_bot:79 - Source download complete: job_1189ff9bfa_source_video_AgAD7R0AAkOHcVU.mp4 (2.94 MB)
+2026-09-19 21:58:22 | INFO     | encoder_bot:157 - Probed media: job_1189ff9bfa_source_video_AgAD7R0AAkOHcVU.mp4 -> 574x1280 (1280p), duration=16.9s, vcodec=h264, audio_tracks=1
+2026-09-19 21:58:26 | INFO     | encoder_bot:123 - Starting FFmpeg encode: 240p -> job_1189ff9bfa_240p_UBS S01 - E01 - Urdu Subtitles - 240p - KayiTV - @UrduSubtitlesMain.mp4 with filter 'scale=108:240:flags=bicubic'
+2026-09-19 21:58:35 | INFO     | encoder_bot:206 - Successfully encoded 240p: job_1189ff9bfa_240p_UBS S01 - E01 - Urdu Subtitles - 240p - KayiTV - @UrduSubtitlesMain.mp4 (789306 bytes)
+2026-09-19 21:58:35 | INFO     | encoder_bot:68 - Uploading job_1189ff9bfa_240p_UBS S01 - E01 - Urdu Subtitles - 240p - KayiTV - @UrduSubtitlesMain.mp4 (770.81 KB) to destination 986380678...
+2026-09-19 21:58:42 | INFO     | encoder_bot:83 - Upload complete for job_1189ff9bfa_240p_UBS S01 - E01 - Urdu Subtitles - 240p - KayiTV - @UrduSubtitlesMain.mp4. Message ID: 66
+2026-09-19 21:58:43 | INFO     | encoder_bot:123 - Starting FFmpeg encode: 360p -> job_1189ff9bfa_360p_UBS S01 - E01 - Urdu Subtitles - 360p - KayiTV - @UrduSubtitlesMain.mp4 with filter 'scale=162:360:flags=bicubic'
+2026-09-19 21:58:52 | INFO     | encoder_bot:206 - Successfully encoded 360p: job_1189ff9bfa_360p_UBS S01 - E01 - Urdu Subtitles - 360p - KayiTV - @UrduSubtitlesMain.mp4 (1186862 bytes)
+2026-09-19 21:58:52 | INFO     | encoder_bot:68 - Uploading job_1189ff9bfa_360p_UBS S01 - E01 - Urdu Subtitles - 360p - KayiTV - @UrduSubtitlesMain.mp4 (1.13 MB) to destination 986380678...
+2026-09-19 21:59:04 | INFO     | encoder_bot:83 - Upload complete for job_1189ff9bfa_360p_UBS S01 - E01 - Urdu Subtitles - 360p - KayiTV - @UrduSubtitlesMain.mp4. Message ID: 67
+2026-09-19 21:59:05 | INFO     | encoder_bot:123 - Starting FFmpeg encode: 480p -> job_1189ff9bfa_480p_UBS S01 - E01 - Urdu Subtitles - 480p - KayiTV - @UrduSubtitlesMain.mp4 with filter 'scale=216:480:flags=bicubic'
+2026-09-19 21:59:17 | INFO     | encoder_bot:206 - Successfully encoded 480p: job_1189ff9bfa_480p_UBS S01 - E01 - Urdu Subtitles - 480p - KayiTV - @UrduSubtitlesMain.mp4 (1622939 bytes)
+2026-09-19 21:59:17 | INFO     | encoder_bot:68 - Uploading job_1189ff9bfa_480p_UBS S01 - E01 - Urdu Subtitles - 480p - KayiTV - @UrduSubtitlesMain.mp4 (1.55 MB) to destination 986380678...
+2026-09-19 21:59:30 | INFO     | encoder_bot:83 - Upload complete for job_1189ff9bfa_480p_UBS S01 - E01 - Urdu Subtitles - 480p - KayiTV - @UrduSubtitlesMain.mp4. Message ID: 68
+2026-09-19 21:59:32 | INFO     | encoder_bot:123 - Starting FFmpeg encode: 720p -> job_1189ff9bfa_720p_UBS S01 - E01 - Urdu Subtitles - 720p - KayiTV - @UrduSubtitlesMain.mp4 with filter 'scale=324:720:flags=bicubic'
+2026-09-19 21:59:52 | INFO     | encoder_bot:206 - Successfully encoded 720p: job_1189ff9bfa_720p_UBS S01 - E01 - Urdu Subtitles - 720p - KayiTV - @UrduSubtitlesMain.mp4 (2768403 bytes)
+2026-09-19 21:59:52 | INFO     | encoder_bot:68 - Uploading job_1189ff9bfa_720p_UBS S01 - E01 - Urdu Subtitles - 720p - KayiTV - @UrduSubtitlesMain.mp4 (2.64 MB) to destination 986380678...
+2026-09-19 22:00:15 | INFO     | encoder_bot:83 - Upload complete for job_1189ff9bfa_720p_UBS S01 - E01 - Urdu Subtitles - 720p - KayiTV - @UrduSubtitlesMain.mp4. Message ID: 69
+2026-09-19 22:00:16 | INFO     | encoder_bot:123 - Starting FFmpeg encode: 1080p -> job_1189ff9bfa_1080p_UBS S01 - E01 - Urdu Subtitles - 1080p - KayiTV - @UrduSubtitlesMain.mp4 with filter 'scale=484:1080:flags=bicubic'
+2026-09-19 22:01:03 | INFO     | encoder_bot:206 - Successfully encoded 1080p: job_1189ff9bfa_1080p_UBS S01 - E01 - Urdu Subtitles - 1080p - KayiTV - @UrduSubtitlesMain.mp4 (4858454 bytes)
+2026-09-19 22:01:03 | INFO     | encoder_bot:68 - Uploading job_1189ff9bfa_1080p_UBS S01 - E01 - Urdu Subtitles - 1080p - KayiTV - @UrduSubtitlesMain.mp4 (4.63 MB) to destination 986380678...
+2026-09-19 22:01:10 | INFO     | encoder_bot:65 - Saved single thumbnail configuration for user 986380678
+2026-09-19 22:02:21 | INFO     | encoder_bot:83 - Upload complete for job_1189ff9bfa_1080p_UBS S01 - E01 - Urdu Subtitles 
+2026-09-19 22:02:23 | INFO     | encoder_bot:363 - Deleted local source video job_1189ff9bfa_source_video_AgAD7R0AAkOHcVU.mp4
+2026-09-19 22:03:48 | INFO     | encoder_bot:65 - Updated episode header template for user 986380678
+2026-09-19 22:10:24 | INFO     | encoder_bot:124 - Stopping Job Queue Worker...
+INFO:encoder_bot:Stopping Job Queue Worker...
+2026-09-19 22:10:25 | INFO     | encoder_bot:79 - JobQueueWorker stopped.
+INFO:encoder_bot:JobQueueWorker stopped.
+2026-09-19 22:10:25 | INFO     | encoder_bot:127 - Stopping Telegram Bot Client...
+INFO:encoder_bot:Stopping Telegram Bot Client...
+2026-09-19 22:10:25 | INFO     | encoder_bot:129 - Bot stopped successfully.
+INFO:encoder_bot:Bot stopped successfully.
+PS D:\Encoder Bot> python main.py
+2026-09-19 22:10:44 | INFO     | encoder_bot:75 - Initializing SQLite database...
+2026-09-19 22:10:44 | INFO     | encoder_bot:165 - SQLite Database initialized and schema verified.
+2026-09-19 22:10:44 | INFO     | encoder_bot:78 - Reconciling jobs from previous runs...
+2026-09-19 22:10:45 | INFO     | encoder_bot:81 - Registering bot message and callback handlers...
+2026-09-19 22:10:45 | INFO     | encoder_bot:84 - Starting Telegram Bot Client...
+2026-09-19 22:10:50 | INFO     | encoder_bot:88 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 22:10:50 | INFO     | encoder_bot:90 - Starting Job Queue Worker...
+2026-09-19 22:10:50 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 22:10:50 | INFO     | encoder_bot:22 - Bot is running and listening for messages. Press Ctrl+C to stop.
+2026-09-19 22:12:46 | INFO     | encoder_bot:84 - Job job_7029e6ef5f enqueued. Queue size: 1...
+2026-09-19 22:12:46 | INFO     | encoder_bot:65 - Initiating single-source download for media file_id: BAACAgQAAyEFAASWwXRCAAIi...
+2026-09-19 22:24:04 | INFO     | encoder_bot:125 - Stopping Job Queue Worker...
+INFO:encoder_bot:Stopping Job Queue Worker...
+2026-09-19 22:24:05 | INFO     | encoder_bot:79 - JobQueueWorker stopped.
+INFO:encoder_bot:JobQueueWorker stopped.
+2026-09-19 22:24:05 | INFO     | encoder_bot:128 - Stopping Telegram Bot Client...
+INFO:encoder_bot:Stopping Telegram Bot Client...
+2026-09-19 22:24:05 | INFO     | encoder_bot:130 - Bot stopped successfully.
+INFO:encoder_bot:Bot stopped successfully.
+PS D:\Encoder Bot> python main.py
+2026-09-19 22:24:30 | INFO     | encoder_bot:75 - Initializing SQLite database...
+2026-09-19 22:24:30 | INFO     | encoder_bot:165 - SQLite Database initialized and schema verified.
+2026-09-19 22:24:30 | INFO     | encoder_bot:78 - Reconciling jobs from previous runs...
+2026-09-19 22:24:30 | WARNING  | encoder_bot:29 - Recovering interrupted job job_7029e6ef5f (previous status: downloading)2026-09-19 22:24:30 | INFO     | encoder_bot:41 - Reconciled 1 pending/interrupted jobs for queue processing.
+2026-09-19 22:24:30 | INFO     | encoder_bot:81 - Registering bot message and callback handlers...
+2026-09-19 22:24:30 | INFO     | encoder_bot:84 - Starting Telegram Bot Client...
+2026-09-19 22:24:34 | INFO     | encoder_bot:88 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 22:24:34 | INFO     | encoder_bot:90 - Starting Job Queue Worker...
+2026-09-19 22:24:34 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 22:24:34 | INFO     | encoder_bot:22 - Bot is running and listening for messages. Press Ctrl+C to stop....
+2026-09-19 22:24:34 | INFO     | encoder_bot:66 - Initiating single-source download for media file_id: BAACAgQAAyEFAASWwXRCAAIi...
+2026-09-19 22:30:41 | INFO     | encoder_bot:125 - Stopping Job Queue Worker...
+INFO:encoder_bot:Stopping Job Queue Worker...
+2026-09-19 22:30:42 | INFO     | encoder_bot:79 - JobQueueWorker stopped.
+INFO:encoder_bot:JobQueueWorker stopped.
+2026-09-19 22:30:42 | INFO     | encoder_bot:128 - Stopping Telegram Bot Client...
+INFO:encoder_bot:Stopping Telegram Bot Client...
+2026-09-19 22:30:42 | INFO     | encoder_bot:130 - Bot stopped successfully.
+INFO:encoder_bot:Bot stopped successfully.
+PS D:\Encoder Bot> python main.py
+2026-09-19 22:31:01 | INFO     | encoder_bot:75 - Initializing SQLite database...
+2026-09-19 22:31:01 | INFO     | encoder_bot:165 - SQLite Database initialized and schema verified.
+2026-09-19 22:31:01 | INFO     | encoder_bot:78 - Reconciling jobs from previous runs...
+2026-09-19 22:31:01 | WARNING  | encoder_bot:29 - Recovering interrupted job job_7029e6ef5f (previous status: downloading)2026-09-19 22:31:01 | INFO     | encoder_bot:41 - Reconciled 1 pending/interrupted jobs for queue processing.
+2026-09-19 22:31:01 | INFO     | encoder_bot:81 - Registering bot message and callback handlers...
+2026-09-19 22:31:01 | INFO     | encoder_bot:84 - Starting Telegram Bot Client...
+2026-09-19 22:31:04 | INFO     | encoder_bot:88 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 22:31:05 | INFO     | encoder_bot:90 - Starting Job Queue Worker...
+2026-09-19 22:31:05 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 22:31:05 | INFO     | encoder_bot:22 - Bot is running and listening for messages. Press Ctrl+C to stop.
+2026-09-19 22:31:05 | INFO     | encoder_bot:118 - Processing job job_7029e6ef5f (GS Ep1 @TheGreatSeljuks.mp4) [Batch 1/1]
+2026-09-19 22:31:05 | INFO     | encoder_bot:67 - Initiating single-source download for media file_id: BAACAgQAAyEFAASWwXRCAAIi...
+2026-09-19 22:34:35 | INFO     | encoder_bot:88 - Cancelling active job job_7029e6ef5f...
+2026-09-19 22:36:19 | INFO     | encoder_bot:125 - Stopping Job Queue Worker...
+INFO:encoder_bot:Stopping Job Queue Worker...
+2026-09-19 22:36:20 | INFO     | encoder_bot:79 - JobQueueWorker stopped.
+INFO:encoder_bot:JobQueueWorker stopped.
+2026-09-19 22:36:20 | INFO     | encoder_bot:128 - Stopping Telegram Bot Client...
+INFO:encoder_bot:Stopping Telegram Bot Client...
+2026-09-19 22:36:20 | INFO     | encoder_bot:130 - Bot stopped successfully.
+INFO:encoder_bot:Bot stopped successfully.
+PS D:\Encoder Bot> python main.py
+2026-09-19 22:42:56 | INFO     | encoder_bot:75 - Initializing SQLite database...
+2026-09-19 22:42:56 | INFO     | encoder_bot:165 - SQLite Database initialized and schema verified.
+2026-09-19 22:42:56 | INFO     | encoder_bot:78 - Reconciling jobs from previous runs...
+2026-09-19 22:42:56 | WARNING  | encoder_bot:29 - Recovering interrupted job job_7029e6ef5f (previous status: downloading)2026-09-19 22:42:56 | INFO     | encoder_bot:41 - Reconciled 1 pending/interrupted jobs for queue processing.
+2026-09-19 22:42:56 | INFO     | encoder_bot:81 - Registering bot message and callback handlers...
+2026-09-19 22:42:56 | INFO     | encoder_bot:84 - Starting Telegram Bot Client...
+2026-09-19 22:43:57 | INFO     | encoder_bot:88 - Bot connected successfully as @encforgebot (ID: 8773393190)
+2026-09-19 22:43:57 | INFO     | encoder_bot:90 - Starting Job Queue Worker...
+2026-09-19 22:43:57 | INFO     | encoder_bot:67 - JobQueueWorker started.
+2026-09-19 22:43:57 | INFO     | encoder_bot:22 - Bot is running and listening for messages. Press Ctrl+C to stop.
+2026-09-19 22:43:57 | INFO     | encoder_bot:118 - Processing job job_7029e6ef5f (GS Ep1 @TheGreatSeljuks.mp4) [Batch 1/1]...
+2026-09-19 22:43:57 | INFO     | encoder_bot:78 - Starting high-speed parallel download: job_7029e6ef5f_source_GS Ep1 @TheGreatSeljuks.mp4 (907.5 MB, 908 chunks of 1MB, 8 parallel streams, DC 4)
+2026-09-19 22:44:42 | INFO     | encoder_bot:88 - Cancelling active job job_7029e6ef5f...
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 243, in _callback_dispatcher
+    await handle_wizard_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\encode.py", line 328, in handle_wizard_callbacks
+    await query.answer("Session expired. Please send video or use /encode again.", show_alert=True)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 243, in _callback_dispatcher
+    await handle_wizard_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\encode.py", line 328, in handle_wizard_callbacks
+    await query.answer("Session expired. Please send video or use /encode again.", show_alert=True)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 243, in _callback_dispatcher
+    await handle_wizard_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\encode.py", line 328, in handle_wizard_callbacks
+    await query.answer("Session expired. Please send video or use /encode again.", show_alert=True)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 371, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 214, in _callback_dispatcher
+    await handle_status_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\status.py", line 122, in handle_status_callbacks
+    await query.answer("Status already up to date!", show_alert=False)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 371, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 214, in _callback_dispatcher
+    await handle_status_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\status.py", line 122, in handle_status_callbacks
+    await query.answer("Status already up to date!", show_alert=False)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 371, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Encoder Bot\app\handlers\status.py", line 120, in handle_status_callbacks
+    await query.answer("🔄 Status updated!", show_alert=False)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 214, in _callback_dispatcher
+    await handle_status_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\status.py", line 122, in handle_status_callbacks
+    await query.answer("Status already up to date!", show_alert=False)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unable to connect due to network issues: Connection timed out
+Unhandled exception: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 371, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Encoder Bot\app\handlers\status.py", line 120, in handle_status_callbacks
+    await query.answer("🔄 Status updated!", show_alert=False)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "D:\Encoder Bot\app\bot.py", line 214, in _callback_dispatcher
+    await handle_status_callbacks(c, q, self.worker)
+  File "D:\Encoder Bot\app\handlers\status.py", line 122, in handle_status_callbacks
+    await query.answer("Status already up to date!", show_alert=False)
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2024\AppData\Roaming\Python\Python314\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+    ...<5 lines>...
+      is_signed=is_signed)
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.69 thinks: The callback query id is invalid
